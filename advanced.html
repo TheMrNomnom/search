@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--HTML to match Google's search page-->
+<html lang="en">
+   <head>
+      <title>Advanced Search</title>
+      <link href="/styles.css" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <div class="page-components">
+         <div class="header-placement">
+            <div class="link-box1">
+               <div class="link-surrounding">
+                  <a class="link" href="index.html">
+                  Search
+                  </a>
+               </div>
+               <div class="link-surrounding">
+                  <a class="link" href="image.html">
+                  Image Search
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="adv-search-heading">
+            <label style="margin-left:10px">Advanced Search</label>
+         </div>
+         <div class="adv-search-surrounding">
+            <form action="https://google.com/search" autocomplete="off">
+               <div class="fpw-surrounding">
+                  <h3 id="find-pages-with">
+                     Find pages with...
+                  </h3>
+               </div>
+               <div id="input-sections">
+                  <div class="fpw-endings" >
+                     <div id="all-these-words">
+                        <div class="fpw-endings-spacing">
+                           <label>all these words:</label>
+                        </div>
+                        <div class="adv-input">
+                           <input name="as_q" type="text">
+                        </div>
+                     </div>
+                     <br>
+                     <div id="exact-word" class="fpw-endings-spacing">
+                        <label>this exact word or phrase:</label>
+                     </div>
+                     <div class="adv-input">
+                        <input name="as_epq" type="text">
+                     </div>
+                     <br>
+                     <div id="any-of-these-words" class="fpw-endings-spacing">
+                        <label>any of these words:</label>
+                     </div>
+                     <div class="adv-input">
+                        <input name="as_oq" type="text">
+                     </div>
+                     <br>
+                     <div id="none-of-these-words" class="fpw-endings-spacing">
+                        <label>none of these words:</label>
+                     </div>
+                     <div class="adv-input">
+                        <input name="as_eq" type="text">
+                     </div>
+                     <br>
+                  </div>
+               </div>
+               <input type="submit" value="Google Advanced Search" id="adv-search-btn">
+            </form>
+         </div>
+      </div>
+   </body>
+</html>
