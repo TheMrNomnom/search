@@ -41,4 +41,16 @@ The CSS file (styles.css) defines the visual styles for all three pages. It incl
 - Header and navigation links.
 - Styling for the advanced search form, including input fields and button.
 
-Feel free to explore the code and customize it to fit your needs. If you have any questions or suggestions, please don't hesitate to contact me.
+## Contributing
+
+Contributions are welcome! If you find any issues or want to enhance the application, feel free to submit a pull request.
+
+Please ensure that your code follows the PEP 8 style guide and includes appropriate tests.
+
+## Credits
+
+This project is developed based on the specifications provided by [CS50](https://cs50.harvard.edu/web/2020/projects/0/search/) from Harvard University.
+
+## License
+
+This project is licensed under the MIT License. You can find the license information in the [LICENSE](LICENSE) file.
